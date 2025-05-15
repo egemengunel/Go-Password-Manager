@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/egemengunel/Go-Password-Manager/vault"
+)
 
 func main() {
-	fmt.Println("🔐 Welcome to Password Encryption Manager!")
+	vault.PasswordHashCheck()
 }
