@@ -41,7 +41,7 @@ func PasswordHashCheck() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Printf("\"%s\":\t%vn", password, match)
+		fmt.Printf("\"%s\":\t%v\n", password, match)
 	}
 
 }
