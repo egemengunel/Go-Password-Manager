@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/egemengunel/Go-Password-Manager/vault"
+	"github.com/egemengunel/Go-Password-Manager/cmd"
 )
 
 func main() {
-	vault.PasswordHashCheck()
+	cmd.Execute()
 }
